@@ -1,0 +1,58 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    position: relative;
+    top: 13rem;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+.signup a {
+    text-align: center;
+    position: relative;
+    left: 8rem;
+    top: 10px;
+}
+  
